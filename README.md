@@ -11,6 +11,8 @@ During the event, 10 vouchers will be drawn for 3 prizes. The audience will regi
 
 We will use Elastic Beanstalk to deploy a web application and DynamoDB to store the email addresses. CloudFront will be used to cache static and dynamic files to an Edge Location close to the user.
 
+[![Watch on YouTube](https://img.youtube.com/vi/k8JchGmqOSI/0.jpg)](https://www.youtube.com/watch?v=k8JchGmqOSI)
+
 ## Part 1: Creating DynamoDB Table
 The DynamoDB table will later house all of the email addresses of entrants in the raffle. Creating one is simple. We’ll create a table called `users`, set our partition key to `email` with type `String`, and have the table at default settings.
 
