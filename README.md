@@ -14,7 +14,7 @@ We will use Elastic Beanstalk to deploy a web application and DynamoDB to store 
 ## Part 1: Creating DynamoDB Table
 The DynamoDB table will later house all of the email addresses of entrants in the raffle. Creating one is simple. We’ll create a table called `users`, set our partition key to `email` with type `String`, and have the table at default settings.
 
-If you’d rather create it with code, we can run this Python script in VSCode: `Create DynamoDB.py`
+If you’d rather create it with code, we can run this Python script in VSCode: [Create DynamoDB.py](https://github.com/Rashon5/AWS-Cloud-Scalable-Application/blob/main/Create%20DynamoDB.py)
 
 ![Image](https://i.imgur.com/FgTIzcE.png)
 
@@ -23,7 +23,7 @@ Either way, we see it’s created. We’ll go into it later.
 ![Image](https://i.imgur.com/xW3CGhV.png)
 
 ## Part 2: Creating Elastic Beanstalk Application
-In order to have our raffle, we’ll need to deploy our application and website on Elastic Beanstalk. The code to provision the application is here, but we will go through how to do it on the GUI.
+In order to have our raffle, we’ll need to deploy our application and website on Elastic Beanstalk. The code to provision the application is here, but we will go through how to do it on the GUI. [Elastic Beanstalk.py](https://github.com/Rashon5/AWS-Cloud-Scalable-Application/blob/main/Create%20Elastic%20Beanstalk.py)
 
 ### Step 1: 
 - **Environment tier**:
@@ -102,7 +102,7 @@ The email address has populated in the table.
 ![Image](https://i.imgur.com/EQP59sF.png)
 
 ## Part 3: Content Delivery with CloudFront
-Open CloudFront and create a distribution. Click on `Origin domain` and click what is under the Elastic Load Balancer. To deploy using Python in VSCode:
+Open CloudFront and create a distribution. Click on `Origin domain` and click what is under the Elastic Load Balancer. To deploy using Python in VSCode: [Create CloudFront.py](https://github.com/Rashon5/AWS-Cloud-Scalable-Application/blob/main/Create%20CloudFront.py)
 
 ![Image](https://i.imgur.com/HkWO1id.png)
 
