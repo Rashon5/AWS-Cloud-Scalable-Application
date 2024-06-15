@@ -23,7 +23,7 @@ Either way, we see it’s created. We’ll go into it later.
 ![Image](https://i.imgur.com/xW3CGhV.png)
 
 ## Part 2: Creating Elastic Beanstalk Application
-In order to have our raffle, we’ll need to deploy our application and website on Elastic Beanstalk. The code to provision the application is here, but we will go through how to do it on the GUI. [Elastic Beanstalk.py](https://github.com/Rashon5/AWS-Cloud-Scalable-Application/blob/main/Create%20Elastic%20Beanstalk.py)
+In order to have our raffle, we’ll need to deploy our application and website on Elastic Beanstalk. The code to provision the application is here, but we will go through how to do it on the GUI. [Create Elastic Beanstalk.py](https://github.com/Rashon5/AWS-Cloud-Scalable-Application/blob/main/Create%20Elastic%20Beanstalk.py)
 
 ### Step 1: 
 - **Environment tier**:
