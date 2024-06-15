@@ -4,7 +4,7 @@ import boto3
 cloudfront = boto3.client('cloudfront')
 
 # Define the origin domain (replace with your ELB domain)
-origin_domain_name = 'awseb--awseb-gkxzftw09crp-1057536375.us-east-1.elb.amazonaws.com'
+origin_domain_name = 'awseb--awseb-xxxxxxxxxxxx-##########.us-east-1.elb.amazonaws.com'
 
 # Create the CloudFront distribution
 response = cloudfront.create_distribution(
