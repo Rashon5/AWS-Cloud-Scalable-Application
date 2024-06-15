@@ -26,14 +26,14 @@ eb_client.create_application_version(
 )
 
 # Specified VPC and subnets
-vpc_id = 'vpc-0eae10351618b86ca'
+vpc_id = 'vpc-0xxxxxxxxxxxxxxxx' # Replace with your VPC and your subnet(s)
 subnet_ids = [
-    'subnet-009ab6c82e19820f7',
-    'subnet-0f597a4249f1c9d7e',
-    'subnet-0ef6cdb796fdaabdd',
-    'subnet-06d7d4ef742b85a60',
-    'subnet-027db9206c790e858',
-    'subnet-01b0c7f162a9694d8'
+    'subnet-0xxxxxxxxxxxxxxxx',
+    'subnet-0xxxxxxxxxxxxxxxx',
+    'subnet-0xxxxxxxxxxxxxxxx',
+    'subnet-0xxxxxxxxxxxxxxxx',
+    'subnet-0xxxxxxxxxxxxxxxx',
+    'subnet-0xxxxxxxxxxxxxxxx'
 ]
 
 # Create the environment
